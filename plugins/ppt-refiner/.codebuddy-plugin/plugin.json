@@ -1,0 +1,64 @@
+{
+  "name": "ppt-refiner",
+  "version": "1.4.1",
+  "description": "A PPT refinement and finalization expert that converges a first-draft deck into a deliverable one: it runs objective visual checks page by page, aligns deck-wide consistency, strengthens expression only on the pages that matter, lays out manually added image pages under the project's visual rules, and re-verifies editability before signing off. It never redesigns, never rewrites copy and never touches numbers.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/ppt-refiner.md"
+  ],
+  "skills": [
+    "./skills/ppt-refine-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "ppt-refiner",
+  "displayName": {
+    "en": "Zhuomo",
+    "zh": "琢磨"
+  },
+  "profession": {
+    "en": "Visual Refinement & Finalization Expert",
+    "zh": "视觉精修与定稿专家"
+  },
+  "displayDescription": {
+    "en": "Converges a first draft into a deliverable deck: fixes defects, aligns deck-wide consistency, strengthens key pages and lays out added image pages, with editability re-verified.",
+    "zh": "把初稿收敛成定稿：修硬伤、拉齐全篇一致性、强化重点页，并排版你新增的图片页，交付前复验可编辑。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是落版交付的初稿和工作区，帮我做精修：先出精修范围清单给我看，重点页我来定。",
+    "en": "Here is the draft and workspace from Luoban. Start refining: show me the scope list first, and I will decide the key pages."
+  },
+  "plugin": "ppt-refiner",
+  "tags": [
+    {
+      "en": "Visual Refinement",
+      "zh": "视觉精修"
+    },
+    {
+      "en": "Deck Consistency",
+      "zh": "全篇一致性"
+    },
+    {
+      "en": "Final Delivery",
+      "zh": "定稿交付"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是落版交付的初稿和工作区，帮我做精修：先出精修范围清单给我看，重点页我来定。",
+      "en": "Here is the draft and workspace from Luoban. Start refining: show me the scope list first, and I will decide the key pages."
+    },
+    {
+      "zh": "我在原文件里加了几页图片页，只贴了图没排版，你按全篇的视觉规则统一排一下。",
+      "en": "I added a few image pages to the file with pictures only, no layout; lay them out under the deck's visual rules."
+    },
+    {
+      "zh": "这份定稿能交付吗？把可编辑性复验、已知残留和交付判定一起给我。",
+      "en": "Is this final cut deliverable? Give me the editability re-check, known residuals and the delivery verdict."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "name": "visual-design-architect",
+  "version": "1.4.1",
+  "description": "A visual expression designer that turns a polished slide script into an executable visual system: design tokens, a page-type library, per-page layout blueprints, SVG samples and an image requirement list — emitted as a ppt-master compatible Design Spec so a downstream generator can build fully editable slides without guessing.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/visual-design-architect.md"
+  ],
+  "skills": [
+    "./skills/visual-design-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "visual-design-architect",
+  "displayName": {
+    "en": "Lixiang",
+    "zh": "立象"
+  },
+  "profession": {
+    "en": "Visual Expression Designer",
+    "zh": "视觉表达设计专家"
+  },
+  "displayDescription": {
+    "en": "Defines the deck's visual system and per-page layout blueprints: design tokens, page-type library, SVG samples and an image requirement list, with styles saved as reusable templates.",
+    "zh": "定PPT视觉系统与逐页版式蓝图：设计令牌、页型库、SVG样张、图片需求清单，风格可存为复用模板。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是淬言润好的逐页文案和验筹的事实包，帮我定视觉系统并出逐页版式蓝图。",
+    "en": "Here is the polished slide copy from Cuiyan plus the verified facts from Yanchou; define the visual system and per-page layout blueprints."
+  },
+  "plugin": "visual-design-architect",
+  "tags": [
+    {
+      "en": "Visual System",
+      "zh": "视觉系统"
+    },
+    {
+      "en": "Layout Blueprint",
+      "zh": "版式蓝图"
+    },
+    {
+      "en": "Style Template",
+      "zh": "风格模板"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是淬言润好的逐页文案和验筹的事实包，帮我定视觉系统并出逐页版式蓝图。",
+      "en": "Here is the polished slide copy from Cuiyan plus the verified facts from Yanchou; define the visual system and per-page layout blueprints."
+    },
+    {
+      "zh": "我有个文件夹放了几份觉得好的PPT和PDF，帮我扫描分析后总结成可复用的风格模板。",
+      "en": "I have a folder of decks and PDFs I like; scan them and summarize them into a reusable style template."
+    },
+    {
+      "zh": "先别排全篇，按我的项目调性出三套视觉方向各配一页样张，我选一套再展开。",
+      "en": "Don't lay out the whole deck yet; propose three visual directions with one sample page each, then expand after I pick one."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/
+
+# 项目运行时产物（不要提交）
+原始资料/
+交付物/
+00-过程/
+_tools/
+*.pptx.bak

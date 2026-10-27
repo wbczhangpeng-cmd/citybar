@@ -1,0 +1,60 @@
+{
+  "name": "my-experts",
+  "description": "my-experts marketplace (auto-generated)",
+  "plugins": [
+    {
+      "name": "project-positioning-strategist",
+      "source": "./plugins/project-positioning-strategist",
+      "description": "A project planning and positioning consultant that helps architects and urban designers clarify a project, run foundational analysis, define its positioning, and produce concrete theme, function, business-mix and operations planning during conceptual design.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "ppt-outline-architect",
+      "source": "./plugins/ppt-outline-architect",
+      "description": "Converts a project planning/positioning report into a structured, presentation-ready PPT outline and page-by-page script for downstream AI production.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "business-logic-reviewer",
+      "source": "./plugins/business-logic-reviewer",
+      "description": "A business-logic reviewer that audits a project planning/positioning report for closed-loop logic, internal consistency and real market support, backed by evidence-graded research — issuing issue-by-issue findings and actionable fixes without fabricating data.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "copy-polisher",
+      "source": "./plugins/copy-polisher",
+      "description": "A copy polisher that turns draft slide copy into natural, human-sounding Chinese: removes AI-writing tells with a cluster-based detection rule, corrects domain terminology, matches tone and style to the audience — without touching figures, conclusions or structure.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "visual-design-architect",
+      "source": "./plugins/visual-design-architect",
+      "description": "A visual expression designer that turns a polished slide script into an executable visual system: design tokens, a page-type library, per-page layout blueprints, SVG samples and an image requirement list — emitted as a ppt-master compatible Design Spec so a downstream generator can build fully editable slides without guessing.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "ppt-producer",
+      "source": "./plugins/ppt-producer",
+      "description": "A PPT production expert that drives the local ppt-master pipeline to turn a locked design spec and polished slide copy into a fully editable native PPTX first draft, enforcing fact discipline, editability hard rules, deviation logging and a page-level gap list instead of inventing content or polishing prematurely.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "ppt-refiner",
+      "source": "./plugins/ppt-refiner",
+      "description": "A PPT refinement and finalization expert that converges a first-draft deck into a deliverable one: it runs objective visual checks page by page, aligns deck-wide consistency, strengthens expression only on the pages that matter, lays out manually added image pages under the project's visual rules, and re-verifies editability before signing off. It never redesigns, never rewrites copy and never touches numbers.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "project-orchestrator",
+      "source": "./plugins/project-orchestrator",
+      "description": "A project flow director that stitches the specialist experts into one project: it drafts the project charter (shared hard rules for every expert), hands off a routing pack at each handoff point, and runs a gate check on every deliverable before the next step starts. It never creates content, never signs off on the user's behalf, and never edits upstream outputs.",
+      "version": "1.4.1"
+    },
+    {
+      "name": "ceyan-team",
+      "source": "./plugins/ceyan-team",
+      "description": "An eight-role project planning and deck studio: it turns a raw project brief into a presentable PPT deck through positioning, business review, outline, copy polish, visual design, first-draft generation and page-level refinement — staged in four checkpoints that stop for the owner's sign-off.",
+      "version": "1.4.1"
+    }
+  ]
+}

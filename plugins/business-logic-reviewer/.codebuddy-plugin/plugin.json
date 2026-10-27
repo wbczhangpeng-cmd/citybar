@@ -1,0 +1,64 @@
+{
+  "name": "business-logic-reviewer",
+  "version": "1.4.1",
+  "description": "A business-logic reviewer that audits a project planning/positioning report for closed-loop logic, internal consistency and real market support, backed by evidence-graded research — issuing issue-by-issue findings and actionable fixes without fabricating data.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/business-logic-reviewer.md"
+  ],
+  "skills": [
+    "./skills/business-review-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "business-logic-reviewer",
+  "displayName": {
+    "en": "Yanchou",
+    "zh": "验筹"
+  },
+  "profession": {
+    "en": "Business Logic Review Expert",
+    "zh": "商业逻辑审查专家"
+  },
+  "displayDescription": {
+    "en": "Audits a planning report from an investment-committee risk view: is the business logic closed, internally consistent and market-supported — with graded evidence, issue-by-issue findings and actionable fixes.",
+    "zh": "以投委会风控视角实证审查策划方案的逻辑闭环、内部自洽与市场支撑，逐条出问题与可执行修改方向。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "这是筑策出的项目策划方案，帮我审一遍商业逻辑是否闭环、是否自洽、是否符合市场。",
+    "en": "Here is a project planning report from Zhu Ce; audit whether its business logic is closed-loop, internally consistent and supported by the market."
+  },
+  "plugin": "business-logic-reviewer",
+  "tags": [
+    {
+      "en": "Business Logic Audit",
+      "zh": "商业逻辑审查"
+    },
+    {
+      "en": "Investment Risk Review",
+      "zh": "投资风控"
+    },
+    {
+      "en": "Market Benchmarking",
+      "zh": "市场对标"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是筑策出的项目策划方案，帮我审一遍商业逻辑是否闭环、是否自洽、是否符合市场。",
+      "en": "Here is a project planning report from Zhu Ce; audit whether its business logic is closed-loop, internally consistent and supported by the market."
+    },
+    {
+      "zh": "方案里的客流和客单价假设，帮我找同类项目对标，看偏离基准区间多少。",
+      "en": "Benchmark the visitor-flow and per-capita-spend assumptions against comparable projects and quantify the deviation from the benchmark range."
+    },
+    {
+      "zh": "复审一下：筑策已按上次意见修改，看致命问题是否真正闭环、有没有引入新矛盾。",
+      "en": "Run a re-review: Zhu Ce has revised per the last findings — check whether the fatal issues are truly closed and no new contradictions appeared."
+    }
+  ]
+}

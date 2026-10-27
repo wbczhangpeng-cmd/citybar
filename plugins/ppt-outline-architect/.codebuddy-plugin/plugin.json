@@ -1,0 +1,64 @@
+{
+  "name": "ppt-outline-architect",
+  "version": "1.4.1",
+  "description": "Converts a project planning/positioning report into a structured, presentation-ready PPT outline and page-by-page script for downstream AI production.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/ppt-outline-architect.md"
+  ],
+  "skills": [
+    "./skills/ppt-outline-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "ppt-outline-architect",
+  "displayName": {
+    "en": "Xigang",
+    "zh": "析纲"
+  },
+  "profession": {
+    "en": "Planning-to-PPT Outline Architect",
+    "zh": "策划方案转PPT大纲专家"
+  },
+  "displayDescription": {
+    "en": "Turns a planning & positioning report into a structured PPT outline and page-by-page script, defining chapter hierarchy, page content and expression guidance for downstream production.",
+    "zh": "将策划定位报告拆解为结构化PPT大纲与逐页脚本，明确章节层级、页面内容与表达方式，指导后续制作。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是筑策出的项目策划报告，帮我拆成结构化的PPT汇报大纲和逐页脚本。",
+    "en": "Here is a project planning report from Zhu Ce; turn it into a structured PPT outline and page-by-page script."
+  },
+  "plugin": "ppt-outline-architect",
+  "tags": [
+    {
+      "en": "PPT Outline",
+      "zh": "PPT大纲"
+    },
+    {
+      "en": "Presentation Structure",
+      "zh": "汇报结构"
+    },
+    {
+      "en": "Content Architecture",
+      "zh": "内容架构"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是筑策出的项目策划报告，帮我拆成结构化的PPT汇报大纲和逐页脚本。",
+      "en": "Here is a project planning report from Zhu Ce; turn it into a structured PPT outline and page-by-page script."
+    },
+    {
+      "zh": "我要给政府评审做30分钟汇报，帮我把方案大纲按汇报叙事重排。",
+      "en": "I need a 30-minute presentation for a government review; re-sequence the outline in a presentation narrative."
+    },
+    {
+      "zh": "把大纲章节改成国风命名，并写清每页的图表与配图建议。",
+      "en": "Switch chapter headings to a classical Chinese naming style and specify charts and imagery for each page."
+    }
+  ]
+}

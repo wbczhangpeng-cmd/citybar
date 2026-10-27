@@ -1,0 +1,64 @@
+{
+  "name": "project-orchestrator",
+  "version": "1.4.1",
+  "description": "A project flow director that stitches the specialist experts into one project: it drafts the project charter (shared hard rules for every expert), hands off a routing pack at each handoff point, and runs a gate check on every deliverable before the next step starts. It never creates content, never signs off on the user's behalf, and never edits upstream outputs.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/project-orchestrator.md"
+  ],
+  "skills": [
+    "./skills/project-orchestration-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "project-orchestrator",
+  "displayName": {
+    "en": "Sinan",
+    "zh": "司南"
+  },
+  "profession": {
+    "en": "Project Flow Director",
+    "zh": "项目流程总监"
+  },
+  "displayDescription": {
+    "en": "Sets the shared rules at kickoff, routes every handoff, and gate-checks each deliverable, turning seven specialists into one project.",
+    "zh": "在项目开工时立规矩、每个交接点给路线、收到交付先过闸，把7个专家黏成一个项目，并在接缝处把关。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "启动新项目：先出项目章程草案和台账给我看，我批完再开工。",
+    "en": "Kick off a new project: draft the project charter and the project ledger for my review before any work starts."
+  },
+  "plugin": "project-orchestrator",
+  "tags": [
+    {
+      "en": "Project Charter",
+      "zh": "项目章程"
+    },
+    {
+      "en": "Handoff Routing",
+      "zh": "交接引导"
+    },
+    {
+      "en": "Gate Review",
+      "zh": "闸门验收"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "启动新项目：先出项目章程草案和台账给我看，我批完再开工。",
+      "en": "Kick off a new project: draft the project charter and the project ledger for my review before any work starts."
+    },
+    {
+      "zh": "筑策把报告交了，你过一下闸，然后告诉我下一步去哪、带什么。",
+      "en": "Zhuce delivered the report. Run the gate check, then tell me where to go next and what to bring."
+    },
+    {
+      "zh": "现在项目卡在哪？把台账、未闭环项和超期待办一起给我。",
+      "en": "Where is the project stuck? Give me the ledger, open items and overdue to-dos."
+    }
+  ]
+}

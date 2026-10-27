@@ -1,0 +1,64 @@
+{
+  "name": "ppt-producer",
+  "version": "1.4.1",
+  "description": "A PPT production expert that drives the local ppt-master pipeline to turn a locked design spec and polished slide copy into a fully editable native PPTX first draft, enforcing fact discipline, editability hard rules, deviation logging and a page-level gap list instead of inventing content or polishing prematurely.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/ppt-producer.md"
+  ],
+  "skills": [
+    "./skills/ppt-generate-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "ppt-producer",
+  "displayName": {
+    "en": "Luoban",
+    "zh": "落版"
+  },
+  "profession": {
+    "en": "PPT Generation & First-Draft Producer",
+    "zh": "PPT 生成与初稿制作专家"
+  },
+  "displayDescription": {
+    "en": "Drives the generation pipeline to turn a locked design spec into a native, fully editable PPTX first draft, with fact discipline, deviation logs and an editability sign-off.",
+    "zh": "驱动生成链把设计规范落成原生可编辑的PPT初稿，文字图表皆可改，附偏差记录与可编辑性验收。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是立象的design_spec和淬言的润色稿，帮我生成PPT初稿，先出前5页给我确认。",
+    "en": "Here is the design spec from Lixiang and the polished copy from Cuiyan; generate the first-draft deck and show me the first five pages for confirmation."
+  },
+  "plugin": "ppt-producer",
+  "tags": [
+    {
+      "en": "Deck Generation",
+      "zh": "演示稿生成"
+    },
+    {
+      "en": "Editable PPTX",
+      "zh": "原生可编辑"
+    },
+    {
+      "en": "Deviation Log",
+      "zh": "偏差记录"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是立象的design_spec和淬言的润色稿，帮我生成PPT初稿，先出前5页给我确认。",
+      "en": "Here is the design spec from Lixiang and the polished copy from Cuiyan; generate the first-draft deck and show me the first five pages for confirmation."
+    },
+    {
+      "zh": "这份方案有45页，先按章分批生成，每批8到10页，出完一批我看一批。",
+      "en": "This deck has 45 pages; generate it chapter by chapter, 8 to 10 pages per batch, and let me review each batch."
+    },
+    {
+      "zh": "检查一下这份初稿的可编辑性，哪些页是整页截图或者图表改不了数的，列出来。",
+      "en": "Check this draft's editability: list any pages that are full-page screenshots or whose charts cannot be edited."
+    }
+  ]
+}

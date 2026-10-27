@@ -1,0 +1,64 @@
+{
+  "name": "copy-polisher",
+  "version": "1.4.1",
+  "description": "A copy polisher that turns draft slide copy into natural, human-sounding Chinese: removes AI-writing tells with a cluster-based detection rule, corrects domain terminology, matches tone and style to the audience — without touching figures, conclusions or structure.",
+  "author": {
+    "name": "WorkBuddy",
+    "email": "support@workbuddy.cn"
+  },
+  "agents": [
+    "./agents/copy-polisher.md"
+  ],
+  "skills": [
+    "./skills/copy-polish-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "copy-polisher",
+  "displayName": {
+    "en": "Cuiyan",
+    "zh": "淬言"
+  },
+  "profession": {
+    "en": "Copy Polisher & AI-Tell Remover",
+    "zh": "文案润色与去AI味专家"
+  },
+  "displayDescription": {
+    "en": "Polishes slide-by-slide Chinese copy: strips AI-writing tells, fixes domain terminology, matches tone to the audience, and delivers revision comparisons plus an AI-tell report — never altering figures or conclusions.",
+    "zh": "润色PPT逐页文案：去AI味、校准专业术语、匹配语体风格，附修改对照与AI味体检，不改数字与结论。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "06-ContentCreative",
+  "defaultInitPrompt": {
+    "zh": "这是析纲出的逐页文案，帮我润成不像AI写的、语体对得上汇报对象的中文稿。",
+    "en": "Here is the slide-by-slide draft from Xigang; polish it into natural Chinese that doesn't read as AI-written and fits the audience."
+  },
+  "plugin": "copy-polisher",
+  "tags": [
+    {
+      "en": "Copy Polishing",
+      "zh": "文案润色"
+    },
+    {
+      "en": "AI-Tell Removal",
+      "zh": "去AI味"
+    },
+    {
+      "en": "Terminology Check",
+      "zh": "术语校准"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "这是析纲出的逐页文案，帮我润成不像AI写的、语体对得上汇报对象的中文稿。",
+      "en": "Here is the slide-by-slide draft from Xigang; polish it into natural Chinese that doesn't read as AI-written and fits the audience."
+    },
+    {
+      "zh": "这版文字太像AI了，先帮我做一次AI味体检，看病灶集中在哪几页、哪几类。",
+      "en": "This draft reads too much like AI; run an AI-tell check first and show which pages and which categories the problems cluster in."
+    },
+    {
+      "zh": "术语前后不统一，帮我把专业词校一遍，并统一成同一套口径。",
+      "en": "The terminology is inconsistent; check the professional terms and unify them to a single set of definitions."
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "name": "project-positioning-strategist",
+  "version": "1.4.1",
+  "description": "A project planning and positioning consultant that helps architects and urban designers clarify a project, run foundational analysis, define its positioning, and produce concrete theme, function, business-mix and operations planning during conceptual design.",
+  "agents": [
+    "./agents/project-positioning-strategist.md"
+  ],
+  "expertType": "agent",
+  "agentName": "project-positioning-strategist",
+  "displayName": {
+    "en": "Zhu Ce",
+    "zh": "筑策"
+  },
+  "profession": {
+    "en": "Project Positioning & Planning Strategist",
+    "zh": "项目策划与定位顾问"
+  },
+  "displayDescription": {
+    "en": "In conceptual design, I help you clarify the project, run foundational analysis, lock its positioning, and turn it into concrete theme, function, business-mix and operations planning.",
+    "zh": "在概念方案阶段，帮你理清项目情况、做基础分析、锁定定位，并落地主题、功能、业态、运营的具体策划。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我有个项目要做概念方案，帮我理清情况并做整体定位",
+    "en": "I have a project for conceptual design — help me clarify the situation and define its overall positioning"
+  },
+  "plugin": "project-positioning-strategist",
+  "tags": [
+    {
+      "en": "Urban Renewal",
+      "zh": "城市更新"
+    },
+    {
+      "en": "Cultural Tourism & Commercial Planning",
+      "zh": "文旅商业策划"
+    },
+    {
+      "en": "Project Positioning",
+      "zh": "项目定位"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I have a project for conceptual design — help me clarify the situation and define its overall positioning",
+      "zh": "我有个项目要做概念方案，帮我理清情况并做整体定位"
+    },
+    {
+      "en": "Walk me through positioning and planning for an urban renewal project",
+      "zh": "带我做城市更新项目的定位策划"
+    },
+    {
+      "en": "Help me work out the theme, functions and operations for a cultural-tourism or commercial complex",
+      "zh": "帮我梳理文旅/商业综合体的主题、功能与运营策划"
+    }
+  ]
+}
