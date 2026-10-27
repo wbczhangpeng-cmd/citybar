@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "A visual expression designer that turns a polished slide script into an executable visual system: design tokens, a page-type library, per-page layout blueprints, SVG samples and an image requirement list — emitted as a ppt-master compatible Design Spec so a downstream generator can build fully editable slides without guessing.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/visual-design-architect.md"

@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "Converts a project planning/positioning report into a structured, presentation-ready PPT outline and page-by-page script for downstream AI production.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/ppt-outline-architect.md"

@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "An eight-role project planning and deck studio: it turns a raw project brief into a presentable PPT deck through positioning, business review, outline, copy polish, visual design, first-draft generation and page-level refinement — staged in four checkpoints that stop for the owner's sign-off.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/ceyan-lead.md",

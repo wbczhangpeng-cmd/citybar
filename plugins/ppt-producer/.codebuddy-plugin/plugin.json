@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "A PPT production expert that drives the local ppt-master pipeline to turn a locked design spec and polished slide copy into a fully editable native PPTX first draft, enforcing fact discipline, editability hard rules, deviation logging and a page-level gap list instead of inventing content or polishing prematurely.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/ppt-producer.md"

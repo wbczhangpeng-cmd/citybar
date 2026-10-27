@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "A project flow director that stitches the specialist experts into one project: it drafts the project charter (shared hard rules for every expert), hands off a routing pack at each handoff point, and runs a gate check on every deliverable before the next step starts. It never creates content, never signs off on the user's behalf, and never edits upstream outputs.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/project-orchestrator.md"

@@ -1,21 +1,80 @@
-MIT License
+# 版权与授权 / Copyright & License
 
-Copyright (c) 2026 wbczhangpeng-cmd
+## 版权归属
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+**Copyright © 2026 wbczhangpeng-cmd. 保留所有权利 / All rights reserved.**
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+本仓库的全部内容——包括八个专家角色的提示词（persona）、七套方法论 toolkit、全部
+参考文档（references）、检查脚本（scripts）、文档与图标——著作权归上述权利人所有。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+「策研组 / Ceyan Group」及其成员代号（司南、筑策、验筹、析纲、淬言、立象、落版、琢磨）
+为本项目的名称标识。
+
+---
+
+## 授权：免费使用，禁止商用
+
+在**不用于商业目的**的前提下，任何人可以免费：
+
+- **使用** —— 加载到 WorkBuddy 或兼容环境，用于自己的项目
+- **复制** —— 拷贝到自己的机器、团队内部知识库
+- **修改** —— 改提示词、改判据、加自己的规则
+- **分发** —— 原样或修改后发给他人（须保留本版权声明与授权条款）
+
+**必须遵守：**
+
+1. **署名** —— 保留本文件与版权声明，不得删除或改写权利人名
+2. **标明改动** —— 修改后分发，须注明"基于策研组（Ceyan Group）修改"
+
+---
+
+## 禁止商业用途
+
+**未经权利人书面许可，不得将本仓库内容（含修改后的版本）用于任何商业目的**，包括但不限于：
+
+- 销售、出租、许可本内容或其衍生品
+- 打包进付费产品、付费课程、付费社群、SaaS 服务
+- **用于向客户交付的收费项目**（设计费、策划费、咨询费中包含本内容产出的成果）
+- 以本内容为基础提供有偿咨询、代做、培训
+- 用于商业推广、引流、获客材料
+
+> 判据一句话：**这笔使用让你或你的机构直接或间接收到钱，就是商业用途。**
+>
+> 拿不准的，先来信问一句，多数情况一句话就能说清。
+
+---
+
+## 商业授权
+
+需要商用，请通过 GitHub 仓库的 Issues 或以下方式联系权利人，说明用途与范围，另行取得书面许可：
+
+- GitHub：[@wbczhangpeng-cmd](https://github.com/wbczhangpeng-cmd)
+
+---
+
+## 免责声明
+
+本内容按「现状」提供，不附带任何明示或暗示的担保，包括但不限于适销性、特定用途适用性
+与不侵权的担保。因使用本内容产生的任何直接或间接损失，权利人不承担责任。
+
+**特别提示**：本内容中的方法论、判据与阈值来自真实项目实践，但**不构成专业意见**。
+用于实际项目时，请自行核验事实、数据与合规要求。
+
+---
+
+## English Summary
+
+Copyright © 2026 wbczhangpeng-cmd. All rights reserved.
+
+**Free for non-commercial use.** You may use, copy, modify and distribute this
+work at no charge, provided you keep this notice, credit the original, and mark
+any changes.
+
+**Commercial use is prohibited** without prior written permission — including
+selling it, bundling it into paid products or courses, or using it to produce
+deliverables for paying clients.
+
+For commercial licensing, open an issue at
+https://github.com/wbczhangpeng-cmd or contact the copyright holder.
+
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED.

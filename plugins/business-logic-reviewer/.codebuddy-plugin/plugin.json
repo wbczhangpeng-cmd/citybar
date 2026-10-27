@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "A business-logic reviewer that audits a project planning/positioning report for closed-loop logic, internal consistency and real market support, backed by evidence-graded research — issuing issue-by-issue findings and actionable fixes without fabricating data.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/business-logic-reviewer.md"

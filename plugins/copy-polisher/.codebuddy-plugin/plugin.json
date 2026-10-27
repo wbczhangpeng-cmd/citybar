@@ -3,8 +3,7 @@
   "version": "1.4.1",
   "description": "A copy polisher that turns draft slide copy into natural, human-sounding Chinese: removes AI-writing tells with a cluster-based detection rule, corrects domain terminology, matches tone and style to the audience — without touching figures, conclusions or structure.",
   "author": {
-    "name": "WorkBuddy",
-    "email": "support@workbuddy.cn"
+    "name": "wbczhangpeng-cmd"
   },
   "agents": [
     "./agents/copy-polisher.md"
