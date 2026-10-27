@@ -94,13 +94,13 @@
 ### 方式 A：作为插件市场加载（推荐）
 
 ```bash
-git clone https://github.com/wbczhangpeng-cmd/ceyan-group.git
+git clone https://github.com/wbczhangpeng-cmd/citybar.git
 ```
 
 在 WorkBuddy 里把仓库根目录添加为**本地插件市场**。仓库结构就是标准 marketplace 布局：
 
 ```
-ceyan-group/
+citybar/
 ├── .codebuddy-plugin/marketplace.json   # 市场清单，指向 plugins/
 ├── plugins/
 │   ├── ceyan-team/                      # 策研组（八人团队，全链用这个）

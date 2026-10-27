@@ -1,6 +1,6 @@
 {
-  "name": "my-experts",
-  "description": "my-experts marketplace (auto-generated)",
+  "name": "citybar",
+  "description": "策研组（Ceyan Group）· 城市规划与文旅策划 AI 专家组",
   "plugins": [
     {
       "name": "project-positioning-strategist",
