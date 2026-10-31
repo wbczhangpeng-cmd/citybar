@@ -12,7 +12,7 @@ Agent 型（单个 AI 专家）
 
 ## 功能
 
-- **读料**：吃筑策三段式报告 + 8 张关键表 + 审查意见 + 补充材料，先列「已获取 / 待补」清单。
+- **读料**：吃筑策七步策划报告 + **六张必出表** + 审查意见 + 补充材料，先列「已获取 / 待补」清单。
 - **问参**：先问受众（多选）与时长，默认政府/甲方立项汇报约 30 分钟。
 - **出结构**：前置固定（封面/目录/摘要），主体章节生成 2–3 套候选供选，锁定后展开。
 - **逐页脚本**：每页给出意图、结论句、要点、表达方式、文字量级、演讲备注、素材引用、初步文案。
@@ -40,6 +40,7 @@ ppt-outline-architect/
 │       ├── 命名风格库.md
 │       ├── 示例大纲.md
 │       └── 自检清单.md
+├── toolbox/                            自检脚本（材料台账核对、引用核实）
 ├── avatars/expert.png
 └── README.md
 ```
@@ -56,17 +57,12 @@ ppt-outline-architect/
 将专家包目录放到专家目录下：
 
 ```
-C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins\ppt-outline-architect\
+~/.workbuddy/plugins/marketplaces/<市场名>/plugins/ppt-outline-architect/
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
-
+放好后**重启 WorkBuddy**，专家即出现在专家列表；也可直接从专家市场安装。
 ## 打包分享
 
 ```bash
-python3 scripts/package_expert.py <expert-dir>
+zip -r ppt-outline-architect.zip ppt-outline-architect/
 ```

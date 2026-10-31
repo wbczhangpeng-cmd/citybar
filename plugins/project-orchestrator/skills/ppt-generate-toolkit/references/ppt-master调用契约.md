@@ -12,7 +12,7 @@
 5. 只读该路线显式触发的支撑文档
 ```
 
-`<SKILL_DIR>` = `C:\Users\PC\.workbuddy\skills\ppt-master`（宿主机实际路径；每次调用都在当次工具调用内展开，**不要 cd、不要依赖 CWD、不要搜索猜路径**）。
+`<SKILL_DIR>` = `~/.workbuddy/skills/ppt-master`（宿主机实际路径；每次调用都在当次工具调用内展开，**不要 cd、不要依赖 CWD、不要搜索猜路径**）。
 
 Windows 上若 `python3` 是 WindowsApps 存根（退出码 9009 且无输出），**改用 `python`**——那不是守卫结果，别误判成校验失败。
 

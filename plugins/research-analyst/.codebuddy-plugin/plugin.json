@@ -1,0 +1,66 @@
+{
+  "name": "research-analyst",
+  "version": "1.0.6",
+  "description": "An industry research analyst that runs a project's first leg: retrieves and verifies national, provincial and municipal policy, reads statutory and upper-level planning constraints, selects and deconstructs recent benchmark cases, sizes the market and visitor base, and delivers a fully sourced research report with a one-page conclusion for downstream positioning work.",
+  "agents": [
+    "./agents/research-analyst.md"
+  ],
+  "skills": [
+    "./skills/research-toolkit"
+  ],
+  "expertType": "agent",
+  "agentName": "research-analyst",
+  "displayName": {
+    "en": "Guan Lan",
+    "zh": "观澜"
+  },
+  "profession": {
+    "en": "Research & Industry Analysis Lead",
+    "zh": "专项调研与产业研究"
+  },
+  "displayDescription": {
+    "en": "Before a project starts, I verify the policy stack, upper-level planning, benchmark cases and market data, then deliver a sourced industry research report for positioning.",
+    "zh": "在项目启动前，把政策、上位规划、标杆案例与市场客群查清核实，出一份带出处的行业研究报告。"
+  },
+  "avatar": "avatars/expert.png",
+  "categoryId": "12-IndustryConsultant",
+  "defaultInitPrompt": {
+    "zh": "我要做一个 XX 项目，先帮我查清政策和标杆案例，出一份行业研究报告",
+    "en": "I am starting a XX project — research the policy landscape and benchmark cases, then give me an industry research report"
+  },
+  "plugin": "research-analyst",
+  "tags": [
+    {
+      "en": "Industry Research",
+      "zh": "产业研究"
+    },
+    {
+      "en": "Policy & Planning",
+      "zh": "政策与规划"
+    },
+    {
+      "en": "Benchmark Analysis",
+      "zh": "标杆案例拆解"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "en": "I am starting a XX project — research the policy landscape and benchmark cases, then give me an industry research report",
+      "zh": "我要做一个 XX 项目，先帮我查清政策和标杆案例，出一份行业研究报告"
+    },
+    {
+      "en": "Check which national, provincial and municipal policies actually constrain this project, and which ones are still in force",
+      "zh": "帮我查清这个项目受哪些国家、省、市政策约束，哪些还有效"
+    },
+    {
+      "en": "Break down recent benchmark cases in this category — what made each of them work",
+      "zh": "拆解同类型近几年的标杆案例，看它们各自靠什么成功"
+    }
+  ],
+  "author": {
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
+  },
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
+}

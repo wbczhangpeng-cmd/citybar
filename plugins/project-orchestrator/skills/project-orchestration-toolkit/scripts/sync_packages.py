@@ -10,12 +10,15 @@ import shutil
 import hashlib
 import sys
 
-BASE = r"C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins"
+# 从本文件位置反推 plugins 目录（本文件位于 <plugins>/<包>/skills/<toolkit>/scripts/）
+BASE = os.path.abspath(os.path.join(
+    os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", ".."))
 TEAM = os.path.join(BASE, "ceyan-team")
 
 # (包名, 团内对应 persona 名)
 PAIRS = [
     ("project-orchestrator", "ceyan-lead"),
+    ("research-analyst", "research-analyst"),
     ("project-positioning-strategist", "project-positioning-strategist"),
     ("business-logic-reviewer", "business-logic-reviewer"),
     ("ppt-outline-architect", "ppt-outline-architect"),

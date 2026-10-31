@@ -19,7 +19,7 @@ Agent 型（单个 AI 专家）
 - 逻辑闭环：客源→客流→转化→客单→收入→成本→回收，七环是否相接
 - 内部自洽：十二项跨章节勾稽（定位与业态、面积与配比、投资与造价、分期与测算…）
 - 关键假设合理性 + 市场对标（3–5 个可比项目，给区间与偏离幅度）
-- 8 张关键表的勾稽一致性
+- 六张必出表的勾稽一致性（家底／竞品对标／客群画像／功能业态配比／用地平衡／风险矩阵）
 
 **不审什么**
 政策与专业合规（消防/环评/结构/文保）、空间动线、IP 创意——只做提示，不下结论。
@@ -65,15 +65,10 @@ Agent 型（单个 AI 专家）
 专家包已置于：
 
 ```
-C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins\business-logic-reviewer\
+~/.workbuddy/plugins/marketplaces/<市场名>/plugins/business-logic-reviewer/
 ```
 
-注册使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
-
+放好后**重启 WorkBuddy**，专家即出现在专家列表；也可直接从专家市场安装。
 ## 打包分享
 
 ```bash

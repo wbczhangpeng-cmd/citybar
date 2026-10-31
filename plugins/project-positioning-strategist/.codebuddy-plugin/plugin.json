@@ -1,6 +1,6 @@
 {
   "name": "project-positioning-strategist",
-  "version": "1.4.1",
+  "version": "1.4.10",
   "description": "A project planning and positioning consultant that helps architects and urban designers clarify a project, run foundational analysis, define its positioning, and produce concrete theme, function, business-mix and operations planning during conceptual design.",
   "agents": [
     "./agents/project-positioning-strategist.md"
@@ -50,8 +50,14 @@
       "zh": "带我做城市更新项目的定位策划"
     },
     {
-      "en": "Help me work out the theme, functions and operations for a cultural-tourism or commercial complex",
-      "zh": "帮我梳理文旅/商业综合体的主题、功能与运营策划"
+      "en": "Work out the theme, functions and operations plan for this project",
+      "zh": "帮我梳理这个项目的主题、功能与运营策划"
     }
-  ]
+  ],
+  "author": {
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
+  },
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
 }

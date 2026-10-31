@@ -61,6 +61,7 @@ ppt-producer/
 │       ├── 交接契约.md                  接谁的料、交什么、何时退回、何时拒开工
 │       └── 契约快照.md                  v6.7.3 依赖面与升级比对法
 ├── checklist.md                        交付前自检
+├── toolbox/                            自检脚本（材料台账核对、引用核实）
 └── avatars/expert.png
 ```
 
@@ -80,14 +81,16 @@ python -m pip install python-pptx XlsxWriter skia-pathops uharfbuzz Pillow numpy
 
 ## 安装
 
-放在专家目录下并注册：
+专家包已置于：
 
-```bash
-python3 scripts/register_expert.py "C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins\ppt-producer"
 ```
+~/.workbuddy/plugins/marketplaces/<市场名>/plugins/ppt-producer/
+```
+
+放好后**重启 WorkBuddy**，专家即出现在专家列表；也可直接从专家市场安装。
 
 ## 打包分享
 
 ```bash
-python3 scripts/package_expert.py "C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins\ppt-producer"
+zip -r ppt-producer.zip ppt-producer/
 ```

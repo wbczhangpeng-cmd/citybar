@@ -1,12 +1,14 @@
 {
   "name": "ceyan-team",
-  "version": "1.4.1",
-  "description": "An eight-role project planning and deck studio: it turns a raw project brief into a presentable PPT deck through positioning, business review, outline, copy polish, visual design, first-draft generation and page-level refinement — staged in four checkpoints that stop for the owner's sign-off.",
+  "version": "1.4.11",
+  "description": "A nine-role project planning and deck studio: it opens with a sourced industry research leg, then moves through positioning, business review, outline, copy polish, visual design, first-draft generation and page-level refinement — staged in four checkpoints that stop for the owner's sign-off.",
   "author": {
-    "name": "wbczhangpeng-cmd"
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
   },
   "agents": [
     "./agents/ceyan-lead.md",
+    "./agents/research-analyst.md",
     "./agents/project-positioning-strategist.md",
     "./agents/business-logic-reviewer.md",
     "./agents/ppt-outline-architect.md",
@@ -22,13 +24,15 @@
     "./skills/copy-polish-toolkit",
     "./skills/visual-design-toolkit",
     "./skills/ppt-generate-toolkit",
-    "./skills/ppt-refine-toolkit"
+    "./skills/ppt-refine-toolkit",
+    "./skills/research-toolkit"
   ],
   "expertType": "team",
   "agentName": "ceyan-lead",
   "teamInfo": {
     "leadAgent": "ceyan-lead",
     "memberAgents": [
+      "research-analyst",
       "project-positioning-strategist",
       "business-logic-reviewer",
       "ppt-outline-architect",
@@ -47,14 +51,14 @@
     "zh": "策研组"
   },
   "displayDescription": {
-    "en": "Eight experts in one room: positioning, business review, outline, copy polish, visual design, first draft and page-level refinement — a deck ready to present.",
-    "zh": "八位专家协同：项目定位、商业审查、大纲、润色、视觉设计、初稿生成到逐页精修，交付可直接汇报的方案。"
+    "en": "Nine experts in one room: sourced industry research first, then positioning, business review, outline, copy polish, visual design, first draft and page-level refinement.",
+    "zh": "九位专家协同：先做专项调研，再定位、审查商业逻辑、出大纲、润色与视觉设计，最后逐页精修成稿。"
   },
   "avatar": "avatars/team.png",
   "categoryId": "12-IndustryConsultant",
   "defaultInitPrompt": {
-    "zh": "启动新项目：先出项目章程和台账给我批，批完从段一·立项开始。",
-    "en": "Start a new project: draft the charter and the ledger for my approval, then begin at Stage 1 · Positioning."
+    "zh": "启动新项目：先出项目章程和台账给我批，批完从段一·调研开始。",
+    "en": "Start a new project: draft the charter and the ledger for my approval, then begin at Stage 1 · Research."
   },
   "plugin": "ceyan-team",
   "tags": [
@@ -73,8 +77,8 @@
   ],
   "quickPrompts": [
     {
-      "zh": "启动新项目：先出项目章程和台账给我批，批完从段一·立项开始。",
-      "en": "Start a new project: draft the charter and the ledger for my approval, then begin at Stage 1 · Positioning."
+      "zh": "启动新项目：先出项目章程和台账给我批，批完从段一·调研开始。",
+      "en": "Start a new project: draft the charter and the ledger for my approval, then begin at Stage 1 · Research."
     },
     {
       "zh": "继续段二：筑策的定位和验筹的审查都过了，让析纲出大纲。",
@@ -89,15 +93,36 @@
     {
       "id": "ceyan-lead",
       "displayName": {
-        "en": "Sinan",
-        "zh": "司南"
+        "en": "Bingjun",
+        "zh": "秉钧"
       },
       "profession": {
         "en": "Project Flow Director",
         "zh": "项目流程总监"
       },
       "avatar": "avatars/ceyan-lead.png",
-      "role": "lead"
+      "role": "lead",
+      "name": {
+        "en": "Bingjun",
+        "zh": "秉钧"
+      }
+    },
+    {
+      "id": "research-analyst",
+      "displayName": {
+        "en": "Guan Lan",
+        "zh": "观澜"
+      },
+      "profession": {
+        "en": "Research & Industry Analysis Lead",
+        "zh": "专项调研与产业研究"
+      },
+      "avatar": "avatars/research-analyst.png",
+      "role": "member",
+      "name": {
+        "en": "Guan Lan",
+        "zh": "观澜"
+      }
     },
     {
       "id": "project-positioning-strategist",
@@ -110,7 +135,11 @@
         "zh": "项目策划与定位顾问"
       },
       "avatar": "avatars/project-positioning-strategist.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Zhu Ce",
+        "zh": "筑策"
+      }
     },
     {
       "id": "business-logic-reviewer",
@@ -123,7 +152,11 @@
         "zh": "商业逻辑审查官"
       },
       "avatar": "avatars/business-logic-reviewer.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Yan Chou",
+        "zh": "验筹"
+      }
     },
     {
       "id": "ppt-outline-architect",
@@ -136,7 +169,11 @@
         "zh": "策划方案转PPT大纲专家"
       },
       "avatar": "avatars/ppt-outline-architect.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Xi Gang",
+        "zh": "析纲"
+      }
     },
     {
       "id": "copy-polisher",
@@ -149,7 +186,11 @@
         "zh": "汇报文案润色师"
       },
       "avatar": "avatars/copy-polisher.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Cui Yan",
+        "zh": "淬言"
+      }
     },
     {
       "id": "visual-design-architect",
@@ -162,7 +203,11 @@
         "zh": "视觉表达设计师"
       },
       "avatar": "avatars/visual-design-architect.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Li Xiang",
+        "zh": "立象"
+      }
     },
     {
       "id": "ppt-producer",
@@ -175,7 +220,11 @@
         "zh": "PPT生产工程师"
       },
       "avatar": "avatars/ppt-producer.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Luo Ban",
+        "zh": "落版"
+      }
     },
     {
       "id": "ppt-refiner",
@@ -188,7 +237,13 @@
         "zh": "PPT精修定稿师"
       },
       "avatar": "avatars/ppt-refiner.png",
-      "role": "member"
+      "role": "member",
+      "name": {
+        "en": "Zhuo Mo",
+        "zh": "琢磨"
+      }
     }
-  ]
+  ],
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
 }

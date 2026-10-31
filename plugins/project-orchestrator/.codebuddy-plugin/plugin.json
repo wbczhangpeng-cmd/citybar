@@ -1,29 +1,31 @@
 {
   "name": "project-orchestrator",
-  "version": "1.4.1",
+  "version": "1.4.11",
   "description": "A project flow director that stitches the specialist experts into one project: it drafts the project charter (shared hard rules for every expert), hands off a routing pack at each handoff point, and runs a gate check on every deliverable before the next step starts. It never creates content, never signs off on the user's behalf, and never edits upstream outputs.",
   "author": {
-    "name": "wbczhangpeng-cmd"
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
   },
   "agents": [
     "./agents/project-orchestrator.md"
   ],
   "skills": [
-    "./skills/project-orchestration-toolkit"
+    "./skills/project-orchestration-toolkit",
+    "./skills/ppt-generate-toolkit"
   ],
   "expertType": "agent",
   "agentName": "project-orchestrator",
   "displayName": {
-    "en": "Sinan",
-    "zh": "司南"
+    "en": "Bingjun",
+    "zh": "秉钧"
   },
   "profession": {
     "en": "Project Flow Director",
     "zh": "项目流程总监"
   },
   "displayDescription": {
-    "en": "Sets the shared rules at kickoff, routes every handoff, and gate-checks each deliverable, turning seven specialists into one project.",
-    "zh": "在项目开工时立规矩、每个交接点给路线、收到交付先过闸，把7个专家黏成一个项目，并在接缝处把关。"
+    "en": "Sets the shared rules at kickoff, routes every handoff, and gate-checks each deliverable, turning eight specialists into one project.",
+    "zh": "在项目开工时立规矩、每个交接点给路线、收到交付先过闸，把8个专家黏成一个项目，并在接缝处把关。"
   },
   "avatar": "avatars/expert.png",
   "categoryId": "12-IndustryConsultant",
@@ -59,5 +61,7 @@
       "zh": "现在项目卡在哪？把台账、未闭环项和超期待办一起给我。",
       "en": "Where is the project stuck? Give me the ledger, open items and overdue to-dos."
     }
-  ]
+  ],
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
 }

@@ -1,9 +1,10 @@
 {
   "name": "business-logic-reviewer",
-  "version": "1.4.1",
+  "version": "1.4.10",
   "description": "A business-logic reviewer that audits a project planning/positioning report for closed-loop logic, internal consistency and real market support, backed by evidence-graded research — issuing issue-by-issue findings and actionable fixes without fabricating data.",
   "author": {
-    "name": "wbczhangpeng-cmd"
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
   },
   "agents": [
     "./agents/business-logic-reviewer.md"
@@ -59,5 +60,7 @@
       "zh": "复审一下：筑策已按上次意见修改，看致命问题是否真正闭环、有没有引入新矛盾。",
       "en": "Run a re-review: Zhu Ce has revised per the last findings — check whether the fatal issues are truly closed and no new contradictions appeared."
     }
-  ]
+  ],
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
 }

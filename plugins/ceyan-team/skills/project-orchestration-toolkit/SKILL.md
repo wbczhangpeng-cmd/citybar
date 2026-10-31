@@ -31,7 +31,11 @@ description: "Flow director's toolkit. Load when setting up a charter, routing a
 | 交接前三核 | `references/交接核验协议.md` |
 | 派工 / 查专家接口 | `references/专家接口速查.md` |
 | 立章程 | `references/项目章程规范.md` |
+| **开工前确认是全新项目／没串旧项目** | `references/冷启动与数据隔离.md` |
 | 记台账 | `references/台账规范.md` |
+| 查闸门判据 / 数到第几道闸 | `references/闸门判据表.md` |
+| 段末验收、填验收单 | `references/验收单模板.md` |
+| 核专家族规模、契约边界 | `references/契约快照.md` |
 | 核交付物里的文件是否真存在 | 跑 `scripts/check_file_refs.py` |
 
 ## 四条铁律
@@ -44,7 +48,7 @@ description: "Flow director's toolkit. Load when setting up a charter, routing a
 ## 四段式（结构没变，节奏变了）
 
 ```
-段一 立项：章程 → 主人批 → 筑策（第1–5步）→ 验筹（前置审查）→ 停
+段一 调研与立项：章程 → 主人批 → 观澜（行业研究四件）→ 停 → 筑策（第1–5步）→ 验筹（前置审查）→ 停
 段二 文本：析纲（章节 → 逐页）→ 淬言 → 停
 段三 视觉：立象（规格 + 样张）→ 落版（初稿）→ 停
 段四 收尾：琢磨（精修）→ 我终验 → 交付

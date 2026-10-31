@@ -65,6 +65,7 @@ visual-design-architect/
 │       ├── 契约快照.md
 │       └── 交接契约.md
 ├── checklist.md                            # 交付前自检
+├── toolbox/                            自检脚本（材料台账核对、引用核实）
 └── avatars/expert.png
 ```
 

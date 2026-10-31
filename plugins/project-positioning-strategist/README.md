@@ -12,7 +12,7 @@ Agent 型（单个 AI 专家）
 - **基础分析**：共享主干（背景/区位场地/政策合规/市场竞品/客群/产业业态）+ 类型叠加层。
 - **项目定位**：七件套框架，先收敛「一句话定位」，再展开客群、主题、功能、业态、差异化、运营与风险。
 - **具体策划**：主题、功能与业态配比、运营与商业模式、分期实施、概念级投资与资金平衡。
-- **交付**：三段式报告 + 八张可填表格。
+- **交付**：七步策划报告（章节可归三段，但成文骨架是七步）+ **六张必出表** + 回传秉钧五件。
 - **协作方式**：一次一个问题、逐步推进，每个结论均需用户确认。
 
 ## 使用示例
@@ -33,15 +33,10 @@ Agent 型（单个 AI 专家）
 将专家包目录放到专家目录下：
 
 ```
-C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins/project-positioning-strategist/
+~/.workbuddy/plugins/marketplaces/<市场名>/plugins/project-positioning-strategist/
 ```
 
-然后运行注册命令使其可见：
-
-```bash
-python3 scripts/register_expert.py <expert-dir>
-```
-
+放好后**重启 WorkBuddy**，专家即出现在专家列表；也可直接从专家市场安装。
 ## 打包分享
 
 ```bash

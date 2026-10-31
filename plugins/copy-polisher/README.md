@@ -75,7 +75,7 @@ Agent 型（单个 AI 专家）
 ## 安装
 
 ```
-C:\Users\PC\.workbuddy\plugins\marketplaces\my-experts\plugins\copy-polisher\
+~/.workbuddy/plugins/marketplaces/<市场名>/plugins/copy-polisher/
 ```
 
 ## 打包分享

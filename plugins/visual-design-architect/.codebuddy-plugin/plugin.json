@@ -1,9 +1,10 @@
 {
   "name": "visual-design-architect",
-  "version": "1.4.1",
+  "version": "1.4.8",
   "description": "A visual expression designer that turns a polished slide script into an executable visual system: design tokens, a page-type library, per-page layout blueprints, SVG samples and an image requirement list — emitted as a ppt-master compatible Design Spec so a downstream generator can build fully editable slides without guessing.",
   "author": {
-    "name": "wbczhangpeng-cmd"
+    "name": "张鹏（wbczhangpeng-cmd）",
+    "email": "wbczhangpeng-cmd@users.noreply.github.com"
   },
   "agents": [
     "./agents/visual-design-architect.md"
@@ -59,5 +60,7 @@
       "zh": "先别排全篇，按我的项目调性出三套视觉方向各配一页样张，我选一套再展开。",
       "en": "Don't lay out the whole deck yet; propose three visual directions with one sample page each, then expand after I pick one."
     }
-  ]
+  ],
+  "license": "Free to use, copy and modify. Commercial use prohibited.",
+  "homepage": "https://github.com/wbczhangpeng-cmd/citybar"
 }
